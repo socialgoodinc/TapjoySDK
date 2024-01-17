@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BB644EE2ABC9DC8005CE975 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB644ED2ABC9DC8005CE975 /* AVFoundation.framework */; };
+		2BB644F02ABC9DCD005CE975 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB644EF2ABC9DCD005CE975 /* CoreMedia.framework */; };
+		2BEF3A792ACB231C009AE28B /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BEF3A782ACB231C009AE28B /* ImageIO.framework */; };
+		5B179C9128E7114700D46C80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B179C9028E7114700D46C80 /* AppDelegate.swift */; };
+		5B2EDFB629D2E90800B2EBA0 /* OfferwallDiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2EDFB529D2E90800B2EBA0 /* OfferwallDiscoverView.swift */; };
+		5B2EDFB829D2EB4600B2EBA0 /* OfferwallDiscoverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2EDFB729D2EB4600B2EBA0 /* OfferwallDiscoverViewModel.swift */; };
+		5B43E53E2952184200818C2F /* ConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B43E53D2952184200818C2F /* ConfigView.swift */; };
+		5B606D8E28E209A200DCB343 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B606D8D28E209A200DCB343 /* AppTrackingTransparency.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		5B606D9028E209A900DCB343 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B606D8F28E209A900DCB343 /* UserNotifications.framework */; };
+		5B606D9228E209B100DCB343 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B606D9128E209B100DCB343 /* CoreServices.framework */; };
+		5B606D9428E209BC00DCB343 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B606D9328E209BC00DCB343 /* libc++.tbd */; };
+		5B606D9628E209C700DCB343 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B606D9528E209C700DCB343 /* libz.tbd */; };
+		5B606D9828E209CE00DCB343 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B606D9728E209CE00DCB343 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		5B606D9A28E209D500DCB343 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B606D9928E209D500DCB343 /* CFNetwork.framework */; };
+		5B606D9C28E209DC00DCB343 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B606D9B28E209DC00DCB343 /* CoreTelephony.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		5B606D9E28E209E400DCB343 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B606D9D28E209E400DCB343 /* UIKit.framework */; };
+		5B606DA028E209EE00DCB343 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B606D9F28E209EE00DCB343 /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		5B606DA228E209F500DCB343 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B606DA128E209F500DCB343 /* SystemConfiguration.framework */; };
+		5B606DA428E209FD00DCB343 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B606DA328E209FD00DCB343 /* WebKit.framework */; };
+		5B7B9DDF296597A20057A47C /* ConfigViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B9DDE296597A20057A47C /* ConfigViewModel.swift */; };
+		5BC246ED28F56DDE002172D4 /* CustomEventsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC246EC28F56DDE002172D4 /* CustomEventsViewModel.swift */; };
+		5BC28BC829D4447400C50C59 /* OfferwallDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC28BC729D4447400C50C59 /* OfferwallDiscoverViewController.swift */; };
+		5BE2B65928E1FC690078106C /* TapjoyEasyAppSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE2B65828E1FC690078106C /* TapjoyEasyAppSwiftApp.swift */; };
+		5BE2B65B28E1FC690078106C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE2B65A28E1FC690078106C /* ContentView.swift */; };
+		5BE2B65D28E1FC6A0078106C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE2B65C28E1FC6A0078106C /* Assets.xcassets */; };
+		5BE2B66028E1FC6A0078106C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE2B65F28E1FC6A0078106C /* Preview Assets.xcassets */; };
+		5BE2B66728E1FCA80078106C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE2B66628E1FCA80078106C /* MainView.swift */; };
+		5BF7609028F40F7D0089C044 /* UserPropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7608F28F40F7D0089C044 /* UserPropView.swift */; };
+		5BF7609228F412DB0089C044 /* UserPropViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7609128F412DB0089C044 /* UserPropViewModel.swift */; };
+		5BF7609428F46F920089C044 /* CustomEventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7609328F46F920089C044 /* CustomEventsView.swift */; };
+		61BD51E42FFBA1D9FE8537A0 /* Tapjoy.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250ED26F526E5F2A3EFC1022 /* Tapjoy.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		250ED26F526E5F2A3EFC1022 /* Tapjoy.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Tapjoy.xcframework; path = ../Libraries/Tapjoy.xcframework; sourceTree = "<group>"; };
+		2BB644ED2ABC9DC8005CE975 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2BB644EF2ABC9DCD005CE975 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2BEF3A782ACB231C009AE28B /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		5B179C9028E7114700D46C80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B2A06AA28E2F40F00198F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5B2EDFB529D2E90800B2EBA0 /* OfferwallDiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferwallDiscoverView.swift; sourceTree = "<group>"; };
+		5B2EDFB729D2EB4600B2EBA0 /* OfferwallDiscoverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferwallDiscoverViewModel.swift; sourceTree = "<group>"; };
+		5B43E53D2952184200818C2F /* ConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigView.swift; sourceTree = "<group>"; };
+		5B606D8D28E209A200DCB343 /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		5B606D8F28E209A900DCB343 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		5B606D9128E209B100DCB343 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		5B606D9328E209BC00DCB343 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		5B606D9528E209C700DCB343 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		5B606D9728E209CE00DCB343 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		5B606D9928E209D500DCB343 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5B606D9B28E209DC00DCB343 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		5B606D9D28E209E400DCB343 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B606D9F28E209EE00DCB343 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		5B606DA128E209F500DCB343 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5B606DA328E209FD00DCB343 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		5B7B9DDE296597A20057A47C /* ConfigViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewModel.swift; sourceTree = "<group>"; };
+		5BC246EC28F56DDE002172D4 /* CustomEventsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEventsViewModel.swift; sourceTree = "<group>"; };
+		5BC28BC729D4447400C50C59 /* OfferwallDiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferwallDiscoverViewController.swift; sourceTree = "<group>"; };
+		5BE2B65528E1FC690078106C /* TapjoyEasyAppSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapjoyEasyAppSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE2B65828E1FC690078106C /* TapjoyEasyAppSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapjoyEasyAppSwiftApp.swift; sourceTree = "<group>"; };
+		5BE2B65A28E1FC690078106C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5BE2B65C28E1FC6A0078106C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BE2B65F28E1FC6A0078106C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5BE2B66628E1FCA80078106C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5BF7608F28F40F7D0089C044 /* UserPropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPropView.swift; sourceTree = "<group>"; };
+		5BF7609128F412DB0089C044 /* UserPropViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPropViewModel.swift; sourceTree = "<group>"; };
+		5BF7609328F46F920089C044 /* CustomEventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEventsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BE2B65228E1FC690078106C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BEF3A792ACB231C009AE28B /* ImageIO.framework in Frameworks */,
+				2BB644F02ABC9DCD005CE975 /* CoreMedia.framework in Frameworks */,
+				2BB644EE2ABC9DC8005CE975 /* AVFoundation.framework in Frameworks */,
+				5B606DA428E209FD00DCB343 /* WebKit.framework in Frameworks */,
+				5B606DA228E209F500DCB343 /* SystemConfiguration.framework in Frameworks */,
+				5B606DA028E209EE00DCB343 /* StoreKit.framework in Frameworks */,
+				5B606D9E28E209E400DCB343 /* UIKit.framework in Frameworks */,
+				5B606D9C28E209DC00DCB343 /* CoreTelephony.framework in Frameworks */,
+				5B606D9A28E209D500DCB343 /* CFNetwork.framework in Frameworks */,
+				5B606D9828E209CE00DCB343 /* AdSupport.framework in Frameworks */,
+				5B606D9628E209C700DCB343 /* libz.tbd in Frameworks */,
+				5B606D9428E209BC00DCB343 /* libc++.tbd in Frameworks */,
+				5B606D9228E209B100DCB343 /* CoreServices.framework in Frameworks */,
+				5B606D9028E209A900DCB343 /* UserNotifications.framework in Frameworks */,
+				5B606D8E28E209A200DCB343 /* AppTrackingTransparency.framework in Frameworks */,
+				61BD51E42FFBA1D9FE8537A0 /* Tapjoy.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B606D8A28E2096800DCB343 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BEF3A782ACB231C009AE28B /* ImageIO.framework */,
+				2BB644EF2ABC9DCD005CE975 /* CoreMedia.framework */,
+				2BB644ED2ABC9DC8005CE975 /* AVFoundation.framework */,
+				5B606DA328E209FD00DCB343 /* WebKit.framework */,
+				5B606DA128E209F500DCB343 /* SystemConfiguration.framework */,
+				5B606D9F28E209EE00DCB343 /* StoreKit.framework */,
+				5B606D9D28E209E400DCB343 /* UIKit.framework */,
+				5B606D9B28E209DC00DCB343 /* CoreTelephony.framework */,
+				5B606D9928E209D500DCB343 /* CFNetwork.framework */,
+				5B606D9728E209CE00DCB343 /* AdSupport.framework */,
+				5B606D9528E209C700DCB343 /* libz.tbd */,
+				5B606D9328E209BC00DCB343 /* libc++.tbd */,
+				5B606D9128E209B100DCB343 /* CoreServices.framework */,
+				5B606D8F28E209A900DCB343 /* UserNotifications.framework */,
+				5B606D8D28E209A200DCB343 /* AppTrackingTransparency.framework */,
+				250ED26F526E5F2A3EFC1022 /* Tapjoy.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BE2B64C28E1FC690078106C = {
+			isa = PBXGroup;
+			children = (
+				5BE2B65728E1FC690078106C /* TapjoyEasyAppSwift */,
+				5BE2B65628E1FC690078106C /* Products */,
+				5B606D8A28E2096800DCB343 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5BE2B65628E1FC690078106C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BE2B65528E1FC690078106C /* TapjoyEasyAppSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BE2B65728E1FC690078106C /* TapjoyEasyAppSwift */ = {
+			isa = PBXGroup;
+			children = (
+				5B2A06AA28E2F40F00198F8F /* Info.plist */,
+				5BE2B65828E1FC690078106C /* TapjoyEasyAppSwiftApp.swift */,
+				5BE2B66628E1FCA80078106C /* MainView.swift */,
+				5B179C9028E7114700D46C80 /* AppDelegate.swift */,
+				5BE2B65A28E1FC690078106C /* ContentView.swift */,
+				5B43E53D2952184200818C2F /* ConfigView.swift */,
+				5B7B9DDE296597A20057A47C /* ConfigViewModel.swift */,
+				5BF7609328F46F920089C044 /* CustomEventsView.swift */,
+				5BC246EC28F56DDE002172D4 /* CustomEventsViewModel.swift */,
+				5BF7608F28F40F7D0089C044 /* UserPropView.swift */,
+				5BF7609128F412DB0089C044 /* UserPropViewModel.swift */,
+				5B2EDFB729D2EB4600B2EBA0 /* OfferwallDiscoverViewModel.swift */,
+				5B2EDFB529D2E90800B2EBA0 /* OfferwallDiscoverView.swift */,
+				5BC28BC729D4447400C50C59 /* OfferwallDiscoverViewController.swift */,
+				5BE2B65C28E1FC6A0078106C /* Assets.xcassets */,
+				5BE2B65E28E1FC6A0078106C /* Preview Content */,
+			);
+			path = TapjoyEasyAppSwift;
+			sourceTree = "<group>";
+		};
+		5BE2B65E28E1FC6A0078106C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5BE2B65F28E1FC6A0078106C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BE2B65428E1FC690078106C /* TapjoyEasyAppSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BE2B66328E1FC6A0078106C /* Build configuration list for PBXNativeTarget "TapjoyEasyAppSwift" */;
+			buildPhases = (
+				5BE2B65128E1FC690078106C /* Sources */,
+				5BE2B65228E1FC690078106C /* Frameworks */,
+				5BE2B65328E1FC690078106C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapjoyEasyAppSwift;
+			productName = TapjoyEasyAppSwift;
+			productReference = 5BE2B65528E1FC690078106C /* TapjoyEasyAppSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BE2B64D28E1FC690078106C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					5BE2B65428E1FC690078106C = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 5BE2B65028E1FC690078106C /* Build configuration list for PBXProject "TapjoyEasyAppSwift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BE2B64C28E1FC690078106C;
+			productRefGroup = 5BE2B65628E1FC690078106C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BE2B65428E1FC690078106C /* TapjoyEasyAppSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BE2B65328E1FC690078106C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE2B66028E1FC6A0078106C /* Preview Assets.xcassets in Resources */,
+				5BE2B65D28E1FC6A0078106C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BE2B65128E1FC690078106C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2EDFB829D2EB4600B2EBA0 /* OfferwallDiscoverViewModel.swift in Sources */,
+				5B179C9128E7114700D46C80 /* AppDelegate.swift in Sources */,
+				5BC28BC829D4447400C50C59 /* OfferwallDiscoverViewController.swift in Sources */,
+				5BE2B65B28E1FC690078106C /* ContentView.swift in Sources */,
+				5BC246ED28F56DDE002172D4 /* CustomEventsViewModel.swift in Sources */,
+				5B43E53E2952184200818C2F /* ConfigView.swift in Sources */,
+				5BF7609228F412DB0089C044 /* UserPropViewModel.swift in Sources */,
+				5BF7609028F40F7D0089C044 /* UserPropView.swift in Sources */,
+				5B7B9DDF296597A20057A47C /* ConfigViewModel.swift in Sources */,
+				5BE2B66728E1FCA80078106C /* MainView.swift in Sources */,
+				5BE2B65928E1FC690078106C /* TapjoyEasyAppSwiftApp.swift in Sources */,
+				5B2EDFB629D2E90800B2EBA0 /* OfferwallDiscoverView.swift in Sources */,
+				5BF7609428F46F920089C044 /* CustomEventsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5BE2B66128E1FC6A0078106C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BE2B66228E1FC6A0078106C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BE2B66428E1FC6A0078106C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TapjoyEasyAppSwift/Preview Content\"";
+				DEVELOPMENT_TEAM = ECPZ2SRF59;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Libraries/**";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TapjoyEasyAppSwift/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = "-ObjC";
+				OTHER_CPLUSPLUSFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tapjoy.EasyApp-Swift-LLC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BE2B66528E1FC6A0078106C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TapjoyEasyAppSwift/Preview Content\"";
+				DEVELOPMENT_TEAM = ECPZ2SRF59;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Libraries/**";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TapjoyEasyAppSwift/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tapjoy.EasyApp-Swift-LLC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BE2B65028E1FC690078106C /* Build configuration list for PBXProject "TapjoyEasyAppSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE2B66128E1FC6A0078106C /* Debug */,
+				5BE2B66228E1FC6A0078106C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BE2B66328E1FC6A0078106C /* Build configuration list for PBXNativeTarget "TapjoyEasyAppSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE2B66428E1FC6A0078106C /* Debug */,
+				5BE2B66528E1FC6A0078106C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BE2B64D28E1FC690078106C /* Project object */;
+}
