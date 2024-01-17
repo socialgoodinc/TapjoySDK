@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>TJPlacementDelegate Protocol Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">Tapjoy iOS SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Tapjoy</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/contentDidAppear:">- contentDidAppear:</option>
+		
+		<option value="//api/name/contentDidDisappear:">- contentDidDisappear:</option>
+		
+		<option value="//api/name/contentIsReady:">- contentIsReady:</option>
+		
+		<option value="//api/name/didClick:">- didClick:</option>
+		
+		<option value="//api/name/placement:didRequestPurchase:productId:">- placement:didRequestPurchase:productId:</option>
+		
+		<option value="//api/name/placement:didRequestReward:itemId:quantity:">- placement:didRequestReward:itemId:quantity:</option>
+		
+		<option value="//api/name/requestDidFail:error:">- requestDidFail:error:</option>
+		
+		<option value="//api/name/requestDidSucceed:">- requestDidSucceed:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">TJPlacementDelegate Protocol Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Conforms to</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>TJPlacement.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>  The <a href="../Classes/Tapjoy.html">Tapjoy</a> placement Delegate protocol. Adopt this protocol in order to handle responses that send are received upon sending a <a href="../Classes/TJPlacement.html">TJPlacement</a>.</p>
+
+<p>  The methods to prepare are:</p>
+
+<ul>
+<li><a href="#//api/name/requestDidSucceed:">requestDidSucceed:</a> Called when a placement request is sent successfully</li>
+<li><a href="#//api/name/requestDidFail:error:">requestDidFail:error:</a> Called when an error occurs while sending the placement request</li>
+<li><a href="#//api/name/contentIsReady:">contentIsReady:</a> Called when content for a placement is loaded and ready to display</li>
+<li><a href="#//api/name/contentDidAppear:">contentDidAppear:</a> Called when placement content did appear</li>
+<li><a href="#//api/name/contentDidDisappear:">contentDidDisappear:</a> Called when placement content did disappear</li>
+<li><a href="#//api/name/placement:didRequestPurchase:productId:">placement:didRequestPurchase:productId:</a> Called when the user has successfully completed a purchase request</li>
+<li><a href="#//api/name/placement:didRequestReward:itemId:quantity:">placement:didRequestReward:itemId:quantity:</a>(int)quantity: Called when the user successfully requests a reward</li>
+</ul>
+
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/requestDidSucceed:" title="requestDidSucceed:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/requestDidSucceed:">&ndash;&nbsp;requestDidSucceed:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Callback issued by TJ to publisher to state that placement request is successful</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)requestDidSucceed:(TJPlacement *)<em>placement</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>placement</code></th>
+						<td><p>The <a href="../Classes/TJPlacement.html">TJPlacement</a> that was sent</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Callback issued by TJ to publisher to state that placement request is successful</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TJPlacement.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/requestDidFail:error:" title="requestDidFail:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/requestDidFail:error:">&ndash;&nbsp;requestDidFail:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Called when an error occurs while sending the placement</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)requestDidFail:(TJPlacement *)<em>placement</em> error:(nullable NSError *)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>placement</code></th>
+						<td><p>The <a href="../Classes/TJPlacement.html">TJPlacement</a> that was sent
+@error error code</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Called when an error occurs while sending the placement</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TJPlacement.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/contentIsReady:" title="contentIsReady:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/contentIsReady:">&ndash;&nbsp;contentIsReady:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Called when content for an placement is successfully cached</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)contentIsReady:(TJPlacement *)<em>placement</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>placement</code></th>
+						<td><p>The <a href="../Classes/TJPlacement.html">TJPlacement</a> that was sent</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Called when content for an placement is successfully cached</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TJPlacement.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/contentDidAppear:" title="contentDidAppear:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/contentDidAppear:">&ndash;&nbsp;contentDidAppear:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Called when placement content did appear</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)contentDidAppear:(TJPlacement *)<em>placement</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>placement</code></th>
+						<td><p>The <a href="../Classes/TJPlacement.html">TJPlacement</a> that was sent</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Called when placement content did appear</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TJPlacement.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/contentDidDisappear:" title="contentDidDisappear:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/contentDidDisappear:">&ndash;&nbsp;contentDidDisappear:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Called when placement content did disappear</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)contentDidDisappear:(TJPlacement *)<em>placement</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>placement</code></th>
+						<td><p>The <a href="../Classes/TJPlacement.html">TJPlacement</a> that was sent</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Called when placement content did disappear</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TJPlacement.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/didClick:" title="didClick:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/didClick:">&ndash;&nbsp;didClick:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Called when a click event has occurred</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)didClick:(TJPlacement *)<em>placement</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>placement</code></th>
+						<td><p>The <a href="../Classes/TJPlacement.html">TJPlacement</a> that was sent</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Called when a click event has occurred</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TJPlacement.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/placement:didRequestPurchase:productId:" title="placement:didRequestPurchase:productId:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/placement:didRequestPurchase:productId:">&ndash;&nbsp;placement:didRequestPurchase:productId:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Callback issued by TJ to publisher when the user has successfully completed a purchase request</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)placement:(TJPlacement *)<em>placement</em> didRequestPurchase:(nullable TJActionRequest *)<em>request</em> productId:(nullable NSString *)<em>productId</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>request</code></th>
+						<td><ul>
+<li>The <a href="../Classes/TJActionRequest.html">TJActionRequest</a> object</li>
+</ul>
+</td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>productId</code></th>
+						<td><ul>
+<li>the id of the offer that sent the request</li>
+</ul>
+</td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Callback issued by TJ to publisher when the user has successfully completed a purchase request</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TJPlacement.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/placement:didRequestReward:itemId:quantity:" title="placement:didRequestReward:itemId:quantity:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/placement:didRequestReward:itemId:quantity:">&ndash;&nbsp;placement:didRequestReward:itemId:quantity:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Callback issued by TJ to publisher when the user has successfully requests a reward</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)placement:(TJPlacement *)<em>placement</em> didRequestReward:(nullable TJActionRequest *)<em>request</em> itemId:(nullable NSString *)<em>itemId</em> quantity:(int)<em>quantity</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>placement</code></th>
+						<td><ul>
+<li>The <a href="../Classes/TJPlacement.html">TJPlacement</a> that triggered the action request</li>
+</ul>
+</td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>request</code></th>
+						<td><ul>
+<li>The <a href="../Classes/TJActionRequest.html">TJActionRequest</a> object</li>
+</ul>
+</td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>itemId</code></th>
+						<td><ul>
+<li>The itemId for whose reward has been requested</li>
+</ul>
+</td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>quantity</code></th>
+						<td><ul>
+<li>The quantity of the reward for the requested itemId</li>
+</ul>
+</td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Callback issued by TJ to publisher when the user has successfully requests a reward</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TJPlacement.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2023 Tapjoy. All rights reserved.</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

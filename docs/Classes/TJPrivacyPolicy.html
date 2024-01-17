@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>TJPrivacyPolicy Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">Tapjoy iOS SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Tapjoy</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/USPrivacy">USPrivacy</option>
+		
+		<option value="//api/name/belowConsentAgeStatus">belowConsentAgeStatus</option>
+		
+		<option value="//api/name/subjectToGDPRStatus">subjectToGDPRStatus</option>
+		
+		<option value="//api/name/userConsentStatus">userConsentStatus</option>
+		
+	</optgroup>
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/setBelowConsentAge:">- setBelowConsentAge:</option>
+		
+		<option value="//api/name/setSubjectToGDPR:">- setSubjectToGDPR:</option>
+		
+		<option value="//api/name/setUserConsent:">- setUserConsent:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">TJPrivacyPolicy Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>TJPrivacyPolicy.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/userConsentStatus" title="userConsentStatus"></a>
+	<h3 class="method-title"><code><a href="#//api/name/userConsentStatus">&nbsp;&nbsp;userConsentStatus</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>This is used for sending User&rsquo;s consent to behavioral advertising such as in the context of GDPR
+The consent value can be &ldquo;0&rdquo; (User has not provided consent), &ldquo;1&rdquo; (User has provided consent) or
+a daisybit string as suggested in IAB&rsquo;s Transparency and Consent Framework</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (assign, nonatomic) TJStatus userConsentStatus</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>This is used for sending User&rsquo;s consent to behavioral advertising such as in the context of GDPR
+The consent value can be &ldquo;0&rdquo; (User has not provided consent), &ldquo;1&rdquo; (User has provided consent) or
+a daisybit string as suggested in IAB&rsquo;s Transparency and Consent Framework</p>
+
+<p>userConsent = &ldquo;0&rdquo; (User has not provided consent), &ldquo;1&rdquo; (User has provided consent) or a daisybit string as suggested in IAB&rsquo;s Transparency and Consent Framework</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TJPrivacyPolicy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/belowConsentAgeStatus" title="belowConsentAgeStatus"></a>
+	<h3 class="method-title"><code><a href="#//api/name/belowConsentAgeStatus">&nbsp;&nbsp;belowConsentAgeStatus</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>In the US, the Children’s Online Privacy Protection Act (COPPA) imposes certain requirements on operators of online services that (a)
+have actual knowledge that the connected user is a child under 13 years of age, or (b) operate services (including apps) that are
+directed to children under 13.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (assign, nonatomic) TJStatus belowConsentAgeStatus</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>In the US, the Children’s Online Privacy Protection Act (COPPA) imposes certain requirements on operators of online services that (a)
+have actual knowledge that the connected user is a child under 13 years of age, or (b) operate services (including apps) that are
+directed to children under 13.</p>
+
+<p>Similarly, the GDPR imposes certain requirements in connection with data subjects who are below the applicable local minimum age for
+online consent (ranging from 13 to 16, as established by each member state).</p>
+
+<p>For applications that are not directed towards children under 13 years of age, but still have a minority share of users known to be
+under the applicable minimum age, utilize this method to access Tapjoy’s monetization capability. This method will set
+ad_tracking_enabled to false for <a href="../Classes/Tapjoy.html">Tapjoy</a> which only shows the user contextual ads. No ad tracking will be done on this user.</p>
+
+<p>belowConsentAge = YES if the user is affected by COPPA, NO if they are not.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TJPrivacyPolicy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/subjectToGDPRStatus" title="subjectToGDPRStatus"></a>
+	<h3 class="method-title"><code><a href="#//api/name/subjectToGDPRStatus">&nbsp;&nbsp;subjectToGDPRStatus</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>This can be used by the integrating App to indicate if the user falls in any of the GDPR applicable countries
+(European Economic Area). The value should be set to YES when User (Subject) is applicable to GDPR regulations
+and NO when User is not applicable to GDPR regulations. In the absence of this call, <a href="../Classes/Tapjoy.html">Tapjoy</a> server makes the
+determination of GDPR applicability.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (assign, nonatomic) TJStatus subjectToGDPRStatus</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>This can be used by the integrating App to indicate if the user falls in any of the GDPR applicable countries
+(European Economic Area). The value should be set to YES when User (Subject) is applicable to GDPR regulations
+and NO when User is not applicable to GDPR regulations. In the absence of this call, <a href="../Classes/Tapjoy.html">Tapjoy</a> server makes the
+determination of GDPR applicability.</p>
+
+<p>subjectToGDPR = YES if the user is affected by GDPR, NO if they are not.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TJPrivacyPolicy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/USPrivacy" title="USPrivacy"></a>
+	<h3 class="method-title"><code><a href="#//api/name/USPrivacy">&nbsp;&nbsp;USPrivacy</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>This is used for sending US Privacy value to behavioral advertising such as in the context of GDPR
+The value can be in IAB&rsquo;s US Privacy String Format consists of specification version to encode the string in number, explicit notice or opportunity to opt out in enum, opt-out sale in enum, LSPA covered transaction in enum .
+eg. &ldquo;1YNN&rdquo; where 1 is char in string for the version, Y = YES, N = No, - = Not Applicable
+See: IAB suggested US Privacy String Format : <a href="https://github.com/InteractiveAdvertisingBureau/USPrivacy/blob/master/CCPA/Version%201.0/US%20Privacy%20String.md">https://github.com/InteractiveAdvertisingBureau/USPrivacy/blob/master/CCPA/Version%201.0/US%20Privacy%20String.md</a>#us-privacy-string-format</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (strong, nonatomic, nullable) NSString *USPrivacy</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>This is used for sending US Privacy value to behavioral advertising such as in the context of GDPR
+The value can be in IAB&rsquo;s US Privacy String Format consists of specification version to encode the string in number, explicit notice or opportunity to opt out in enum, opt-out sale in enum, LSPA covered transaction in enum .
+eg. &ldquo;1YNN&rdquo; where 1 is char in string for the version, Y = YES, N = No, - = Not Applicable
+See: IAB suggested US Privacy String Format : <a href="https://github.com/InteractiveAdvertisingBureau/USPrivacy/blob/master/CCPA/Version%201.0/US%20Privacy%20String.md">https://github.com/InteractiveAdvertisingBureau/USPrivacy/blob/master/CCPA/Version%201.0/US%20Privacy%20String.md</a>#us-privacy-string-format</p>
+
+<p>USPrivacy = The us privacy value string</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TJPrivacyPolicy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setUserConsent:" title="setUserConsent:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setUserConsent:">&ndash;&nbsp;setUserConsent:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deprecated since 13.1.0
+This is used for sending User&rsquo;s consent to behavioral advertising such as in the context of GDPR
+The consent value can be &ldquo;0&rdquo; (User has not provided consent), &ldquo;1&rdquo; (User has provided consent) or
+a daisybit string as suggested in IAB&rsquo;s Transparency and Consent Framework</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setUserConsent:(NSString *)<em>value</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value</code></th>
+						<td><p>&ldquo;0&rdquo; (User has not provided consent), &ldquo;1&rdquo; (User has provided consent) or a daisybit string as suggested in IAB&rsquo;s Transparency and Consent Framework</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Deprecated since 13.1.0
+This is used for sending User&rsquo;s consent to behavioral advertising such as in the context of GDPR
+The consent value can be &ldquo;0&rdquo; (User has not provided consent), &ldquo;1&rdquo; (User has provided consent) or
+a daisybit string as suggested in IAB&rsquo;s Transparency and Consent Framework</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TJPrivacyPolicy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setSubjectToGDPR:" title="setSubjectToGDPR:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setSubjectToGDPR:">&ndash;&nbsp;setSubjectToGDPR:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deprecated since 13.1.0
+This can be used by the integrating App to indicate if the user falls in any of the GDPR applicable countries
+(European Economic Area). The value should be set to YES when User (Subject) is applicable to GDPR regulations
+and NO when User is not applicable to GDPR regulations. In the absence of this call, <a href="../Classes/Tapjoy.html">Tapjoy</a> server makes the
+determination of GDPR applicability.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setSubjectToGDPR:(BOOL)<em>gdprApplicability</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>gdprApplicability</code></th>
+						<td><p>YES if the user is affected by GDPR, NO if they are not.
+userConsent = &ldquo;0&rdquo; (User has not provided consent), &ldquo;1&rdquo; (User has provided consent) or a daisybit string as suggested in IAB&rsquo;s Transparency and Consent Framework</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Deprecated since 13.1.0
+This can be used by the integrating App to indicate if the user falls in any of the GDPR applicable countries
+(European Economic Area). The value should be set to YES when User (Subject) is applicable to GDPR regulations
+and NO when User is not applicable to GDPR regulations. In the absence of this call, <a href="../Classes/Tapjoy.html">Tapjoy</a> server makes the
+determination of GDPR applicability.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TJPrivacyPolicy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setBelowConsentAge:" title="setBelowConsentAge:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setBelowConsentAge:">&ndash;&nbsp;setBelowConsentAge:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<ul>
+<li>Deprecated since 13.1.0</li>
+<li>In the US, the Children’s Online Privacy Protection Act (COPPA) imposes certain requirements on operators of online services that (a)</li>
+<li>have actual knowledge that the connected user is a child under 13 years of age, or (b) operate services (including apps) that are
+@@ -42,19 +29,29 @@ NS_ASSUME_NONNULL_BEGIN</li>
+<li>under the applicable minimum age, utilize this method to access Tapjoy’s monetization capability. This method will set</li>
+<li>ad_tracking_enabled to false for <a href="../Classes/Tapjoy.html">Tapjoy</a> which only shows the user contextual ads. No ad tracking will be done on this user.
+*</li>
+<li>@param isBelowConsentAge YES if the user is affected by COPPA, NO if they are not.</li>
+<li>belowConsentAge = YES if the user is affected by COPPA, NO if they are not.</li>
+</ul>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setBelowConsentAge:(BOOL)<em>isBelowConsentAge</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<ul>
+<li>Deprecated since 13.1.0</li>
+<li>In the US, the Children’s Online Privacy Protection Act (COPPA) imposes certain requirements on operators of online services that (a)</li>
+<li>have actual knowledge that the connected user is a child under 13 years of age, or (b) operate services (including apps) that are
+@@ -42,19 +29,29 @@ NS_ASSUME_NONNULL_BEGIN</li>
+<li>under the applicable minimum age, utilize this method to access Tapjoy’s monetization capability. This method will set</li>
+<li>ad_tracking_enabled to false for <a href="../Classes/Tapjoy.html">Tapjoy</a> which only shows the user contextual ads. No ad tracking will be done on this user.
+*</li>
+<li>@param isBelowConsentAge YES if the user is affected by COPPA, NO if they are not.</li>
+<li>belowConsentAge = YES if the user is affected by COPPA, NO if they are not.</li>
+</ul>
+
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TJPrivacyPolicy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2023 Tapjoy. All rights reserved.</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

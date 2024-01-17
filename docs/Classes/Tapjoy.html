@@ -1,0 +1,3396 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Tapjoy Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">Tapjoy iOS SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Tapjoy</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/)">)</option>
+		
+		<option value="//api/name/appID">appID</option>
+		
+		<option value="//api/name/plugin">plugin</option>
+		
+		<option value="//api/name/sdkKey">sdkKey</option>
+		
+		<option value="//api/name/secretKey">secretKey</option>
+		
+		<option value="//api/name/userID">userID</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/actionComplete:">+ actionComplete:</option>
+		
+		<option value="//api/name/addUserTag:">+ addUserTag:</option>
+		
+		<option value="//api/name/awardCurrency:">+ awardCurrency:</option>
+		
+		<option value="//api/name/awardCurrency:completion:">+ awardCurrency:completion:</option>
+		
+		<option value="//api/name/clearUserTags">+ clearUserTags</option>
+		
+		<option value="//api/name/connect:">+ connect:</option>
+		
+		<option value="//api/name/connect:options:">+ connect:options:</option>
+		
+		<option value="//api/name/enableLogging:">+ enableLogging:</option>
+		
+		<option value="//api/name/endSession">+ endSession</option>
+		
+		<option value="//api/name/getCurrencyBalance">+ getCurrencyBalance</option>
+		
+		<option value="//api/name/getCurrencyBalanceWithCompletion:">+ getCurrencyBalanceWithCompletion:</option>
+		
+		<option value="//api/name/getMaxLevel">+ getMaxLevel</option>
+		
+		<option value="//api/name/getPrivacyPolicy">+ getPrivacyPolicy</option>
+		
+		<option value="//api/name/getSupportURL">+ getSupportURL</option>
+		
+		<option value="//api/name/getSupportURL:">+ getSupportURL:</option>
+		
+		<option value="//api/name/getUserSegment">+ getUserSegment</option>
+		
+		<option value="//api/name/getUserTags">+ getUserTags</option>
+		
+		<option value="//api/name/getUserToken">+ getUserToken</option>
+		
+		<option value="//api/name/getVersion">+ getVersion</option>
+		
+		<option value="//api/name/isConnected">+ isConnected</option>
+		
+		<option value="//api/name/isLimitedConnected">+ isLimitedConnected</option>
+		
+		<option value="//api/name/limitedConnect:">+ limitedConnect:</option>
+		
+		<option value="//api/name/removeUserTag:">+ removeUserTag:</option>
+		
+		<option value="//api/name/setDebugEnabled:">+ setDebugEnabled:</option>
+		
+		<option value="//api/name/setDefaultViewController:">+ setDefaultViewController:</option>
+		
+		<option value="//api/name/setDeviceToken:">+ setDeviceToken:</option>
+		
+		<option value="//api/name/setMaxLevel:">+ setMaxLevel:</option>
+		
+		<option value="//api/name/setReceiveRemoteNotification:">+ setReceiveRemoteNotification:</option>
+		
+		<option value="//api/name/setUserCohortVariable:value:">+ setUserCohortVariable:value:</option>
+		
+		<option value="//api/name/setUserFriendCount:">+ setUserFriendCount:</option>
+		
+		<option value="//api/name/setUserID:">+ setUserID:</option>
+		
+		<option value="//api/name/setUserIDWithCompletion:completion:">+ setUserIDWithCompletion:completion:</option>
+		
+		<option value="//api/name/setUserLevel:">+ setUserLevel:</option>
+		
+		<option value="//api/name/setUserSegment:">+ setUserSegment:</option>
+		
+		<option value="//api/name/setUserTags:">+ setUserTags:</option>
+		
+		<option value="//api/name/setVideoAdDelegate:">+ setVideoAdDelegate:</option>
+		
+		<option value="//api/name/sharedTapjoyConnect">+ sharedTapjoyConnect</option>
+		
+		<option value="//api/name/showDefaultEarnedCurrencyAlert">+ showDefaultEarnedCurrencyAlert</option>
+		
+		<option value="//api/name/spendCurrency:">+ spendCurrency:</option>
+		
+		<option value="//api/name/spendCurrency:completion:">+ spendCurrency:completion:</option>
+		
+		<option value="//api/name/startSession">+ startSession</option>
+		
+		<option value="//api/name/trackEvent:category:parameter1:parameter2:">+ trackEvent:category:parameter1:parameter2:</option>
+		
+		<option value="//api/name/trackEvent:category:parameter1:parameter2:value1name:value1:">+ trackEvent:category:parameter1:parameter2:value1name:value1:</option>
+		
+		<option value="//api/name/trackEvent:category:parameter1:parameter2:value1name:value1:value2name:value2:">+ trackEvent:category:parameter1:parameter2:value1name:value1:value2name:value2:</option>
+		
+		<option value="//api/name/trackEvent:category:parameter1:parameter2:value1name:value1:value2name:value2:value3name:value3:">+ trackEvent:category:parameter1:parameter2:value1name:value1:value2name:value2:value3name:value3:</option>
+		
+		<option value="//api/name/trackEvent:category:parameter1:parameter2:value:">+ trackEvent:category:parameter1:parameter2:value:</option>
+		
+		<option value="//api/name/trackEvent:category:parameter1:parameter2:values:">+ trackEvent:category:parameter1:parameter2:values:</option>
+		
+		<option value="//api/name/trackPurchase:currencyCode:price:campaignId:transactionId:">+ trackPurchase:currencyCode:price:campaignId:transactionId:</option>
+		
+	</optgroup>
+	
+
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">Tapjoy Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>Tapjoy.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>The Tapjoy Connect Main class. This class provides all publicly available methods for developers to integrate Tapjoy into their applications.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						<h2 class="task-title">Other Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/sdkKey" title="sdkKey"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sdkKey">&nbsp;&nbsp;sdkKey</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The application SDK key unique to this app.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nullable, nonatomic, copy) NSString *sdkKey</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The application SDK key unique to this app.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/appID" title="appID"></a>
+	<h3 class="method-title"><code><a href="#//api/name/appID">&nbsp;&nbsp;appID</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The application ID unique to this app.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nullable, nonatomic, copy) NSString *appID</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The application ID unique to this app.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/secretKey" title="secretKey"></a>
+	<h3 class="method-title"><code><a href="#//api/name/secretKey">&nbsp;&nbsp;secretKey</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The Tapjoy secret key for this applicaiton.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nullable, nonatomic, copy) NSString *secretKey</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The Tapjoy secret key for this applicaiton.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/userID" title="userID"></a>
+	<h3 class="method-title"><code><a href="#//api/name/userID">&nbsp;&nbsp;userID</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The user ID, a custom ID set by the developer of an app to keep track of its unique users.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nullable, nonatomic, copy) NSString *userID</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The user ID, a custom ID set by the developer of an app to keep track of its unique users.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/plugin" title="plugin"></a>
+	<h3 class="method-title"><code><a href="#//api/name/plugin">&nbsp;&nbsp;plugin</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The name of the plugin used. If no plugin is used, this value is set to &ldquo;native&rdquo; by default.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nullable, nonatomic, copy) NSString *plugin</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The name of the plugin used. If no plugin is used, this value is set to &ldquo;native&rdquo; by default.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/)" title=")"></a>
+	<h3 class="method-title"><code><a href="#//api/name/)">&nbsp;&nbsp;)</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deprecated since 13.2.0
+Used by limited SDK only</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nullable, nonatomic, copy) NSString *TJC_DEPRECATION_WARNING ( 13.2 .0 )</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Deprecated since 13.2.0
+Used by limited SDK only</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/connect:" title="connect:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/connect:">+&nbsp;connect:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>This method is called to initialize the Tapjoy system and notify the server that this device is running your application.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)connect:(NSString *)<em>sdkKey</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>sdkKey</code></th>
+						<td><p>The application SDK Key. Retrieved from the app dashboard in your Tapjoy account.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>This method is called to initialize the Tapjoy system and notify the server that this device is running your application.</p>
+
+<p>This method should be called upon app delegate initialization in the applicationDidFinishLaunching method.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/connect:options:" title="connect:options:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/connect:options:">+&nbsp;connect:options:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>This method is called to initialize the Tapjoy system and notify the server that this device is running your application.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)connect:(NSString *)<em>sdkKey</em> options:(nullable NSDictionary *)<em>options</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>sdkKey</code></th>
+						<td><p>The application SDK Key. Retrieved from the app dashboard in your Tapjoy account.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>options</code></th>
+						<td><p>NSDictionary of special flags to enable non-standard settings. Valid key:value options:</p>
+
+<p>TJC_OPTION_ENABLE_LOGGING : BOOL to enable logging</p>
+
+<p>TJC_OPTION_USER_ID : NSString user id that must be set if your currency is not managed by Tapjoy. If you don’t have a user id on launch you can call setUserID later</p>
+
+<p>TJC_OPTION_DISABLE_GENERIC_ERROR_ALERT : BOOL to disable our default error dialogs</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>This method is called to initialize the Tapjoy system and notify the server that this device is running your application.</p>
+
+<p>This method should be called upon app delegate initialization in the applicationDidFinishLaunching method.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isConnected" title="isConnected"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isConnected">+&nbsp;isConnected</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Helper function to check if SDK is initialized</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (BOOL)isConnected</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Helper function to check if SDK is initialized</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getSupportURL" title="getSupportURL"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getSupportURL">+&nbsp;getSupportURL</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>This method returns URL to Tapjoy support web page. This will use your default currency.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (nullable NSString *)getSupportURL</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>URL of Tapjoy support web page</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>This method returns URL to Tapjoy support web page. This will use your default currency.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getSupportURL:" title="getSupportURL:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getSupportURL:">+&nbsp;getSupportURL:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>This method returns the URL to Tapjoy support web page for specified currency
+You can get your currencyID from the Tapjoy Dashboard under the currency section.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (nullable NSString *)getSupportURL:(nullable NSString *)<em>currencyID</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>currencyID</code></th>
+						<td><p>the app&rsquo;s currency id</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>URL of Tapjoy support web page for specified currency</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>This method returns the URL to Tapjoy support web page for specified currency
+You can get your currencyID from the Tapjoy Dashboard under the currency section.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getUserToken" title="getUserToken"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getUserToken">+&nbsp;getUserToken</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deprecated since 13.2.0
+This method returns a user token for programmatic mediation.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (nullable NSString *)getUserToken</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Deprecated since 13.2.0
+This method returns a user token for programmatic mediation.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setDebugEnabled:" title="setDebugEnabled:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setDebugEnabled:">+&nbsp;setDebugEnabled:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>This method enables/disables the debug mode of the SDK.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setDebugEnabled:(BOOL)<em>enabled</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>enabled</code></th>
+						<td><p>true to enable, false to disable</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>This method enables/disables the debug mode of the SDK.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/startSession" title="startSession"></a>
+	<h3 class="method-title"><code><a href="#//api/name/startSession">+&nbsp;startSession</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>This method is called to track the session manually. If this method called, automatic session tracking will be disabled.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)startSession</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>This method is called to track the session manually. If this method called, automatic session tracking will be disabled.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/endSession" title="endSession"></a>
+	<h3 class="method-title"><code><a href="#//api/name/endSession">+&nbsp;endSession</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>This method is called to track the session manually. If this method called, automatic session tracking will be disabled.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)endSession</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>This method is called to track the session manually. If this method called, automatic session tracking will be disabled.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getPrivacyPolicy" title="getPrivacyPolicy"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getPrivacyPolicy">+&nbsp;getPrivacyPolicy</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the <a href="../Classes/TJPrivacyPolicy.html">TJPrivacyPolicy</a> instance for calling methods to set GDPR, User&rsquo;s consent, below consent age ,and US Privacy policy flags</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (TJPrivacyPolicy *)getPrivacyPolicy</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The globally accessible <a href="../Classes/TJPrivacyPolicy.html">TJPrivacyPolicy</a> singleton object.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Returns the <a href="../Classes/TJPrivacyPolicy.html">TJPrivacyPolicy</a> instance for calling methods to set GDPR, User&rsquo;s consent, below consent age ,and US Privacy policy flags</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setReceiveRemoteNotification:" title="setReceiveRemoteNotification:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setReceiveRemoteNotification:">+&nbsp;setReceiveRemoteNotification:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deprecated since 13.2.0
+This method is called to set RemoteNotificationUserInfo.
+Call this method in application:didReceiveRemoteNotification:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setReceiveRemoteNotification:(nullable NSDictionary *)<em>userInfo</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>userInfo</code></th>
+						<td><p>the same parameter that passed on application:didReceiveRemoteNotification:</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Deprecated since 13.2.0
+This method is called to set RemoteNotificationUserInfo.
+Call this method in application:didReceiveRemoteNotification:</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setDeviceToken:" title="setDeviceToken:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setDeviceToken:">+&nbsp;setDeviceToken:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deprecated since 13.2.0
+This method is called to send APN device token to Tapjoy server.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setDeviceToken:(nullable NSData *)<em>deviceToken</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>deviceToken</code></th>
+						<td><p>the same parameter that passed on application:didRegisterForRemoteNotificationsWithDeviceToken:</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Deprecated since 13.2.0
+This method is called to send APN device token to Tapjoy server.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setDefaultViewController:" title="setDefaultViewController:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setDefaultViewController:">+&nbsp;setDefaultViewController:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets the default UIViewController to show a content of the placement having no specific view controller given.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setDefaultViewController:(nullable UIViewController *)<em>viewController</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Sets the default UIViewController to show a content of the placement having no specific view controller given.</p><div class="warning"><p><strong>Warning:</strong> This is <strong>experimental</strong> and only applicable to contents of &ldquo;Push to Earn&rdquo; or the default placements so far.</p></div>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setUserLevel:" title="setUserLevel:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setUserLevel:">+&nbsp;setUserLevel:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>This method is called to set the level of the user.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setUserLevel:(int)<em>userLevel</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>This method is called to set the level of the user.</p>
+
+<p>@param userLevel
+the level of the user</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setMaxLevel:" title="setMaxLevel:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setMaxLevel:">+&nbsp;setMaxLevel:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>This method sets the maximum level.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setMaxLevel:(int)<em>maxLevel</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>This method sets the maximum level.</p>
+
+<p>@param maxLevel
+the maximum possible level.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getMaxLevel" title="getMaxLevel"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getMaxLevel">+&nbsp;getMaxLevel</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>This method retrieves the maximum possible level</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (NSNumber *)getMaxLevel</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>maxLevel</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>This method retrieves the maximum possible level</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setUserFriendCount:" title="setUserFriendCount:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setUserFriendCount:">+&nbsp;setUserFriendCount:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deprecated since 13.2.0
+This method is callled to sets the friends count of the user.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setUserFriendCount:(int)<em>friendCount</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>friendCount</code></th>
+						<td><p>the number of friends</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Deprecated since 13.2.0
+This method is callled to sets the friends count of the user.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setUserCohortVariable:value:" title="setUserCohortVariable:value:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setUserCohortVariable:value:">+&nbsp;setUserCohortVariable:value:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deprecated since 13.2.0
+This method is called to set a variable of the cohort.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setUserCohortVariable:(int)<em>index</em> value:(nullable NSString *)<em>value</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>index</code></th>
+						<td><p>the index of the cohort to set (1,2,3,4,5)</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value</code></th>
+						<td><p>the value of the property to set</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Deprecated since 13.2.0
+This method is called to set a variable of the cohort.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getUserTags" title="getUserTags"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getUserTags">+&nbsp;getUserTags</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a string set which contains tags on the user.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (nullable NSSet *)getUserTags</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>set of string</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Returns a string set which contains tags on the user.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setUserTags:" title="setUserTags:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setUserTags:">+&nbsp;setUserTags:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets tags for the user.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setUserTags:(nullable NSSet *)<em>tags</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tags</code></th>
+						<td><p>the tags to be set
+can have up to 200 tags where each tag can have 200 characters</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Sets tags for the user.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/clearUserTags" title="clearUserTags"></a>
+	<h3 class="method-title"><code><a href="#//api/name/clearUserTags">+&nbsp;clearUserTags</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Removes all tags from the user.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)clearUserTags</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Removes all tags from the user.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/addUserTag:" title="addUserTag:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addUserTag:">+&nbsp;addUserTag:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Adds the given tag to the user if it is not already present.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)addUserTag:(NSString *)<em>tag</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tag</code></th>
+						<td><p>the tag to be added</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Adds the given tag to the user if it is not already present.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/removeUserTag:" title="removeUserTag:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/removeUserTag:">+&nbsp;removeUserTag:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Removes the given tag from the user if it is present.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)removeUserTag:(NSString *)<em>tag</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tag</code></th>
+						<td><p>the tag to be removed</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Removes the given tag from the user if it is present.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/trackPurchase:currencyCode:price:campaignId:transactionId:" title="trackPurchase:currencyCode:price:campaignId:transactionId:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/trackPurchase:currencyCode:price:campaignId:transactionId:">+&nbsp;trackPurchase:currencyCode:price:campaignId:transactionId:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>This method is called to track the purchase.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)trackPurchase:(nullable NSString *)<em>productIdentifier</em> currencyCode:(nullable NSString *)<em>currencyCode</em> price:(double)<em>price</em> campaignId:(nullable NSString *)<em>campaignId</em> transactionId:(nullable NSString *)<em>transactionId</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>productIdentifier</code></th>
+						<td><p>the identifier of product</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>currencyCode</code></th>
+						<td><p>the currency code of price as an alphabetic currency code specified in ISO 4217, i.e. &ldquo;USD&rdquo;, &ldquo;KRW&rdquo;</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>price</code></th>
+						<td><p>the price of product</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>campaignId</code></th>
+						<td><p>the campaign id of the purchase request which initiated this purchase, can be nil</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>transactionId</code></th>
+						<td><p>the identifier of iap transaction, if this is given, we will check receipt validation. (Available in iOS 7.0 and later)</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>This method is called to track the purchase.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/trackEvent:category:parameter1:parameter2:" title="trackEvent:category:parameter1:parameter2:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/trackEvent:category:parameter1:parameter2:">+&nbsp;trackEvent:category:parameter1:parameter2:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deprecated since 13.2.0
+This method is called to track an event of the given name with category, parameter1, parameter2 and values.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)trackEvent:(NSString *)<em>name</em> category:(nullable NSString *)<em>category</em> parameter1:(nullable NSString *)<em>parameter1</em> parameter2:(nullable NSString *)<em>parameter2</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>name</code></th>
+						<td><p>the name of event</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>category</code></th>
+						<td><p>the category of event, can be nil</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>parameter1</code></th>
+						<td><p>the parameter of event, string type, can be nil</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>parameter2</code></th>
+						<td><p>the parameter of event, string type, can be nil</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Deprecated since 13.2.0
+This method is called to track an event of the given name with category, parameter1, parameter2 and values.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/trackEvent:category:parameter1:parameter2:value:" title="trackEvent:category:parameter1:parameter2:value:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/trackEvent:category:parameter1:parameter2:value:">+&nbsp;trackEvent:category:parameter1:parameter2:value:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deprecated since 13.2.0
+This method is called to track an event of the given name with category, parameter1, parameter2 and values.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)trackEvent:(NSString *)<em>name</em> category:(nullable NSString *)<em>category</em> parameter1:(nullable NSString *)<em>parameter1</em> parameter2:(nullable NSString *)<em>parameter2</em> value:(int64_t)<em>value</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>name</code></th>
+						<td><p>the name of event</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>category</code></th>
+						<td><p>the category of event, can be nil</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>parameter1</code></th>
+						<td><p>the parameter of event, string type, can be nil</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>parameter2</code></th>
+						<td><p>the parameter of event, string type, can be nil</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value</code></th>
+						<td><p>the value of event</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Deprecated since 13.2.0
+This method is called to track an event of the given name with category, parameter1, parameter2 and values.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/trackEvent:category:parameter1:parameter2:value1name:value1:" title="trackEvent:category:parameter1:parameter2:value1name:value1:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/trackEvent:category:parameter1:parameter2:value1name:value1:">+&nbsp;trackEvent:category:parameter1:parameter2:value1name:value1:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deprecated since 13.2.0
+This method is called to track an event of the given name with category, parameter1, parameter2 and values.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)trackEvent:(NSString *)<em>name</em> category:(nullable NSString *)<em>category</em> parameter1:(nullable NSString *)<em>parameter1</em> parameter2:(nullable NSString *)<em>parameter2</em> value1name:(nullable NSString *)<em>value1name</em> value1:(int64_t)<em>value1</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>name</code></th>
+						<td><p>the name of event</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>category</code></th>
+						<td><p>the category of event, can be nil</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>parameter1</code></th>
+						<td><p>the parameter of event, string type, can be nil</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>parameter2</code></th>
+						<td><p>the parameter of event, string type, can be nil</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value1name</code></th>
+						<td><p>the name of value1 of event</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value1</code></th>
+						<td><p>the value of value1name</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Deprecated since 13.2.0
+This method is called to track an event of the given name with category, parameter1, parameter2 and values.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/trackEvent:category:parameter1:parameter2:value1name:value1:value2name:value2:" title="trackEvent:category:parameter1:parameter2:value1name:value1:value2name:value2:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/trackEvent:category:parameter1:parameter2:value1name:value1:value2name:value2:">+&nbsp;trackEvent:category:parameter1:parameter2:value1name:value1:value2name:value2:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deprecated since 13.2.0
+This method is called to track an event of the given name with category, parameter1, parameter2 and values.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)trackEvent:(NSString *)<em>name</em> category:(nullable NSString *)<em>category</em> parameter1:(nullable NSString *)<em>parameter1</em> parameter2:(nullable NSString *)<em>parameter2</em> value1name:(nullable NSString *)<em>value1name</em> value1:(int64_t)<em>value1</em> value2name:(nullable NSString *)<em>value2name</em> value2:(int64_t)<em>value2</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>name</code></th>
+						<td><p>the name of event</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>category</code></th>
+						<td><p>the category of event, can be nil</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>parameter1</code></th>
+						<td><p>the parameter of event, string type, can be nil</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>parameter2</code></th>
+						<td><p>the parameter of event, string type, can be nil</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value1name</code></th>
+						<td><p>the name of value1 of event</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value1</code></th>
+						<td><p>the value of value1name</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value2name</code></th>
+						<td><p>the name of value2 of event</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value2</code></th>
+						<td><p>the value of value2name</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Deprecated since 13.2.0
+This method is called to track an event of the given name with category, parameter1, parameter2 and values.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/trackEvent:category:parameter1:parameter2:value1name:value1:value2name:value2:value3name:value3:" title="trackEvent:category:parameter1:parameter2:value1name:value1:value2name:value2:value3name:value3:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/trackEvent:category:parameter1:parameter2:value1name:value1:value2name:value2:value3name:value3:">+&nbsp;trackEvent:category:parameter1:parameter2:value1name:value1:value2name:value2:value3name:value3:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deprecated since 13.2.0
+This method is called to track an event of the given name with category, parameter1, parameter2 and values.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)trackEvent:(NSString *)<em>name</em> category:(nullable NSString *)<em>category</em> parameter1:(nullable NSString *)<em>parameter1</em> parameter2:(nullable NSString *)<em>parameter2</em> value1name:(nullable NSString *)<em>value1name</em> value1:(int64_t)<em>value1</em> value2name:(nullable NSString *)<em>value2name</em> value2:(int64_t)<em>value2</em> value3name:(nullable NSString *)<em>value3name</em> value3:(int64_t)<em>value3</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>name</code></th>
+						<td><p>the name of event</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>category</code></th>
+						<td><p>the category of event, can be nil</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>parameter1</code></th>
+						<td><p>the parameter of event, string type, can be nil</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>parameter2</code></th>
+						<td><p>the parameter of event, string type, can be nil</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value1name</code></th>
+						<td><p>the name of value1 of event</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value1</code></th>
+						<td><p>the value of value1name</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value2name</code></th>
+						<td><p>the name of value2 of event</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value2</code></th>
+						<td><p>the value of value2name</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value3name</code></th>
+						<td><p>the name of value3 of event</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value3</code></th>
+						<td><p>the value of value3name</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Deprecated since 13.2.0
+This method is called to track an event of the given name with category, parameter1, parameter2 and values.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/trackEvent:category:parameter1:parameter2:values:" title="trackEvent:category:parameter1:parameter2:values:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/trackEvent:category:parameter1:parameter2:values:">+&nbsp;trackEvent:category:parameter1:parameter2:values:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deprecated since 13.2.0
+This method is called to track an event of the given name with category, parameter1, parameter2 and values.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)trackEvent:(NSString *)<em>name</em> category:(nullable NSString *)<em>category</em> parameter1:(nullable NSString *)<em>parameter1</em> parameter2:(nullable NSString *)<em>parameter2</em> values:(nullable NSDictionary *)<em>values</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>name</code></th>
+						<td><p>the name of event</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>category</code></th>
+						<td><p>the category of event, can be nil</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>parameter1</code></th>
+						<td><p>the parameter of event, string type, can be nil</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>parameter2</code></th>
+						<td><p>the parameter of event, string type, can be nil</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>values</code></th>
+						<td><p>the dictionary of values</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Deprecated since 13.2.0
+This method is called to track an event of the given name with category, parameter1, parameter2 and values.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/actionComplete:" title="actionComplete:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/actionComplete:">+&nbsp;actionComplete:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Informs the Tapjoy server that the specified Pay-Per-Action was completed. Should be called whenever a user completes an in-game action.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)actionComplete:(NSString *)<em>actionID</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>actionID</code></th>
+						<td><p>The action ID of the completed action</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Informs the Tapjoy server that the specified Pay-Per-Action was completed. Should be called whenever a user completes an in-game action.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/sharedTapjoyConnect" title="sharedTapjoyConnect"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sharedTapjoyConnect">+&nbsp;sharedTapjoyConnect</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Retrieves the globally accessible Tapjoy singleton object.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)sharedTapjoyConnect</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The globally accessible Tapjoy singleton object.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Retrieves the globally accessible Tapjoy singleton object.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setUserID:" title="setUserID:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setUserID:">+&nbsp;setUserID:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Assigns a user ID for this user/device. This is used to identify the user in your application</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setUserID:(nullable NSString *)<em>theUserID</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>theUserID</code></th>
+						<td><p>The user ID you wish to assign to this device.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Assigns a user ID for this user/device. This is used to identify the user in your application</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setUserIDWithCompletion:completion:" title="setUserIDWithCompletion:completion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setUserIDWithCompletion:completion:">+&nbsp;setUserIDWithCompletion:completion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Assigns a user ID for this user/device. This is used to identify the user in your application</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setUserIDWithCompletion:(nullable NSString *)<em>theUserID</em> completion:(nullable networkCompletion)<em>completion</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>theUserID</code></th>
+						<td><p>The user ID you wish to assign to this device.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completion</code></th>
+						<td><p>The completion block that is invoked after a response is received from the server.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Assigns a user ID for this user/device. This is used to identify the user in your application</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/enableLogging:" title="enableLogging:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/enableLogging:">+&nbsp;enableLogging:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Toggle logging to the console.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)enableLogging:(BOOL)<em>enable</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>enable</code></th>
+						<td><p>YES to enable logging, NO otherwise.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Toggle logging to the console.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getVersion" title="getVersion"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getVersion">+&nbsp;getVersion</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the SDK version.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (NSString *)getVersion</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The Tapjoy SDK version.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Returns the SDK version.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setUserSegment:" title="setUserSegment:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setUserSegment:">+&nbsp;setUserSegment:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets the segment of the user</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setUserSegment:(TJSegment)<em>userSegment</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>userSegment</code></th>
+						<td><p><a href="../Constants/TJSegment.html">TJSegment</a> enum 0 (non-payer), 1 (payer), 2 (VIP), -1 (unknown)</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Sets the segment of the user</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getUserSegment" title="getUserSegment"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getUserSegment">+&nbsp;getUserSegment</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Gets the segment of the user</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (TJSegment)getUserSegment</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><a href="../Constants/TJSegment.html">TJSegment</a> enum 0 (non-payer), 1 (payer), 2 (VIP), -1 (unknown).</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Gets the segment of the user</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isLimitedConnected" title="isLimitedConnected"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isLimitedConnected">+&nbsp;isLimitedConnected</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deprecated since 13.2.0</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (BOOL)isLimitedConnected</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Deprecated since 13.2.0</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/limitedConnect:" title="limitedConnect:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/limitedConnect:">+&nbsp;limitedConnect:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deprecated since 13.2.0</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)limitedConnect:(NSString *)<em>sdkKey</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Deprecated since 13.2.0</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="TJCVideoManager Methods" name="task_TJCVideoManager Methods"></a>
+						<h2 class="task-title">TJCVideoManager Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/setVideoAdDelegate:" title="setVideoAdDelegate:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setVideoAdDelegate:">+&nbsp;setVideoAdDelegate:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Deprecated since 13.2.0
+Sets the class that implements the <a href="../Protocols/TJCVideoAdDelegate.html">TJCVideoAdDelegate</a> protocol.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setVideoAdDelegate:(nullable id&lt;TJCVideoAdDelegate&gt;)<em>delegate</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>delegate</code></th>
+						<td><p>The class that implements the <a href="../Protocols/TJCVideoAdDelegate.html">TJCVideoAdDelegate</a> protocol.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Deprecated since 13.2.0
+Sets the class that implements the <a href="../Protocols/TJCVideoAdDelegate.html">TJCVideoAdDelegate</a> protocol.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="TJCCurrencyManager Methods" name="task_TJCCurrencyManager Methods"></a>
+						<h2 class="task-title">TJCCurrencyManager Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/getCurrencyBalance" title="getCurrencyBalance"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getCurrencyBalance">+&nbsp;getCurrencyBalance</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Requests for virtual currency balance notify via TJC_GET_CURRENCY_RESPONSE_NOTIFICATION notification.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)getCurrencyBalance</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Requests for virtual currency balance notify via TJC_GET_CURRENCY_RESPONSE_NOTIFICATION notification.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getCurrencyBalanceWithCompletion:" title="getCurrencyBalanceWithCompletion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getCurrencyBalanceWithCompletion:">+&nbsp;getCurrencyBalanceWithCompletion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Requests for virtual currency balance information.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)getCurrencyBalanceWithCompletion:(nullable currencyCompletion)<em>completion</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completion</code></th>
+						<td><p>The completion block that is invoked after a response is received from the server.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Requests for virtual currency balance information.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/spendCurrency:" title="spendCurrency:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/spendCurrency:">+&nbsp;spendCurrency:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Updates the virtual currency for the user with the given spent amount of currency.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)spendCurrency:(int)<em>amount</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>amount</code></th>
+						<td><p>The amount of currency to subtract from the current total amount of currency the user has.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Updates the virtual currency for the user with the given spent amount of currency.</p>
+
+<p>If the spent amount exceeds the current amount of currency the user has, nothing will happen.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/spendCurrency:completion:" title="spendCurrency:completion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/spendCurrency:completion:">+&nbsp;spendCurrency:completion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Updates the virtual currency for the user with the given spent amount of currency.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)spendCurrency:(int)<em>amount</em> completion:(nullable currencyCompletion)<em>completion</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>amount</code></th>
+						<td><p>The amount of currency to subtract from the current total amount of currency the user has.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completion</code></th>
+						<td><p>The completion block that is invoked after a response is received from the server.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Updates the virtual currency for the user with the given spent amount of currency.</p>
+
+<p>If the spent amount exceeds the current amount of currency the user has, nothing will happen.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/awardCurrency:" title="awardCurrency:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/awardCurrency:">+&nbsp;awardCurrency:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Updates the virtual currency for the user with the given awarded amount of currency.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)awardCurrency:(int)<em>amount</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>amount</code></th>
+						<td><p>The amount of currency to add to the current total amount of currency the user has.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Updates the virtual currency for the user with the given awarded amount of currency.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/awardCurrency:completion:" title="awardCurrency:completion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/awardCurrency:completion:">+&nbsp;awardCurrency:completion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Updates the virtual currency for the user with the given awarded amount of currency.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)awardCurrency:(int)<em>amount</em> completion:(nullable currencyCompletion)<em>completion</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>amount</code></th>
+						<td><p>The amount of currency to add to the current total amount of currency the user has.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completion</code></th>
+						<td><p>The completion block that is invoked after a response is received from the server.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Updates the virtual currency for the user with the given awarded amount of currency.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/showDefaultEarnedCurrencyAlert" title="showDefaultEarnedCurrencyAlert"></a>
+	<h3 class="method-title"><code><a href="#//api/name/showDefaultEarnedCurrencyAlert">+&nbsp;showDefaultEarnedCurrencyAlert</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Shows a UIAlert that tells the user how much currency they just earned.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)showDefaultEarnedCurrencyAlert</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Shows a UIAlert that tells the user how much currency they just earned.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Tapjoy.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2023 Tapjoy. All rights reserved.</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>
